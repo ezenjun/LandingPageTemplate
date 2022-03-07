@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
-    opacity: ${({isOpen}) => (isOpen ? '90%' : '0')};
+    opacity: ${({isOpen}) => (isOpen ? '100%' : '0')};
     top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 
 `
@@ -60,7 +60,7 @@ export const SidebarLink = styled(LinkScroll)`
     cursor: pointer;
 
     &:hover{
-        color: #0193bf;
+        color: #8201fb;
         transition: 0.2s ease-in-out;
     }
 `
@@ -72,7 +72,7 @@ export const SideBtnWrap = styled.div`
 `
 export const SidebarRoute = styled.div`
     border-radius:50px;
-    background: #0193bf;
+    background: #8201fb;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;
